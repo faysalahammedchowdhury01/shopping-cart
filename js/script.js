@@ -22,14 +22,12 @@ function handleQuantity(updateProductName, operator) {
 
   if (operator == 'plus') {
     quantity++;
-  } else if (operator == 'minus') {
-    if (quantity < 1) {
-      return quantity;
-    }
+  } else if (operator == 'minus' && quantity > 0) {
     quantity--;
   } else {
     quantity = quantity;
   }
+
   updateElement.value = quantity;
   updateBalance(updateProductName, quantity);
 }
