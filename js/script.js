@@ -16,7 +16,7 @@ function handleQuantity(updateProductName, operator) {
   const quantityText = updateElement.value;
   let quantity = parseInt(quantityText);
 
-  if (quantity < 1 && isNaN) {
+  if (quantity < 1 && isNaN(quantity)) {
     quantity = 0;
   }
 
