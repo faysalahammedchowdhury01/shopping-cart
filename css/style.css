@@ -20,6 +20,11 @@ body {
   font-weight: 500;
 }
 
+.price {
+  width: 120px;
+  text-align: center;
+}
+
 button {
   cursor: pointer;
   background-color: transparent;
