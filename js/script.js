@@ -1,8 +1,4 @@
 // select elements
-const phonePlus = document.getElementById('phone-plus');
-const phoneMinus = document.getElementById('phone-minus');
-const casePlus = document.getElementById('case-plus');
-const caseMinus = document.getElementById('case-minus');
 const subTotalElement = document.getElementById('sub-total');
 const vatElement = document.getElementById('vat');
 const grandTotalElement = document.getElementById('grand-total');
